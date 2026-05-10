@@ -230,7 +230,7 @@
     }
     function changeLanguage() {
         const l = document.getElementById('langSelect').value;
-        const welcome = { ku: "بخێربێن بو که نالئ فه رمي يئ سئمئل ميديا", ar: "أهلاً بكم في القناة الرسمية لسێمێل میدیا", en: "Welcome to Sêmêl Media Official" };
+        const welcome = { ku: "سێمێل میدیا"  , ar: "أهلاً بكم في القناة الرسمية لسێمێل میدیا", en: "Welcome to Sêmêl Media Official" };
         document.getElementById('welcomeText').innerText = welcome[l];
         document.body.dir = (l === 'en') ? 'ltr' : 'rtl';
     }
